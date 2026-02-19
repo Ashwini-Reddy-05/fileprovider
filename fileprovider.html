@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploader</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <div class="card">
+        <h2>File Upload</h2>
+        <div id="dropArea">
+            <p>Drag & Drop Files Here</p>
+            <p>or</p>
+            <button id="uploadBtn">Choose Files</button>
+            <input type="file" id="fileInput" multiple hidden>
+        </div>
+        <h3>Uploaded Files:</h3>
+        <ul id="fileList"></ul>
+    </div>
+    <script src="upload.js"></script>
+</body>
+</html>
